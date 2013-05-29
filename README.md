@@ -11,23 +11,23 @@ It's possible to browse the videos through the video page or by the user who upl
 No user login is in place, because I wanted to keep the app very simple, but It can be added without much problem
 
 INSTALLATION
-============
+------------
 
 - Create a virtual server or set the webroot directory to the public folder
 
 CONFIG
-======
+------
 
 - application/config/database.php To modify the database settings
 - application/config/cache.php To modify the cache settings
 
 SQL
-===
+---
 
 - The database.sql file contains the code to build the database
 
 REQUIREMENTS
-============
+------------
 
 - At least PHP 5.3 with support for Mcrypt and FileInfo.
 - MySQL Server
@@ -35,7 +35,7 @@ REQUIREMENTS
 - Apache webserver with mod_rewrite enabled
 
 BUILT WITH
-==========
+----------
 
 - Vagrant: For building the development enviroment
 - Laravel: PHP Framework
@@ -44,7 +44,7 @@ BUILT WITH
 - Bootstrap: To build the site structure
 
 TESTED ON
-=========
+---------
 
 - Ubuntu 12.04
 - Apache 2.2.22
@@ -54,7 +54,7 @@ TESTED ON
 - Laravel 3.2.14
 
 OPTIMIZATIONS
-=============
+-------------
 
 - JS and CSS files minified and concatenated to reduce http requests
 - Far future expires, browsers will use the cache version of the
