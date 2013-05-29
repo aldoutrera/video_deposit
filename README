@@ -1,0 +1,46 @@
+INSTALLATION
+
+- Create a virtual server or set the webroot directory to the public folder
+  inside solomid folder
+
+CONFIG
+
+- application/config/database.php To modify the database settings
+- application/config/cache.php To modify the cache settings
+
+SQL
+
+- The database.sql file contains the code to build the database
+
+REQUIREMENTS
+
+- At least PHP 5.3 with support for Mcrypt and FileInfo.
+- MySQL Server
+- Memcached server
+- Apache webserver with mod_rewrite enabled
+
+BUILT WITH
+
+- Vagrant: For building the development enviroment
+- Laravel: PHP Framework
+- Grunt: Nodejs task manager, I used it to concatenate and minify the
+  js and css files
+- Bootstrap: To build the site structure
+
+TESTED ON
+
+- Ubuntu 12.04
+- Apache 2.2.22
+- PHP 5.3.10
+- Memcached 1.0.2
+- MySQL 5.5.31
+- Laravel 3.2.14
+
+OPTIMIZATIONS
+
+- JS and CSS files minified and concatenated to reduce http requests
+- Far future expires, browsers will use the cache version of the
+  images, css, js, etc instead of re-downloading them.
+- If the webserver has the mod_deflate enabled, all the web app will be gzip'd
+- Using server cache to store the results of the database queries to reduce
+  the server load

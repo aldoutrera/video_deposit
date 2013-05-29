@@ -1,0 +1,48 @@
+.navbar-inner {
+  background-color: #34495E;
+  background-image: none;
+  color: white;
+}
+
+.navbar .brand,
+.navbar .nav li a {
+  color: #ECF0F1;
+  text-shadow: none;
+}
+
+.navbar .nav li:hover a {
+  color: #BDC3C7;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters-container {
+  border-bottom: 1px solid #ECF0F1;
+}
+
+.video {
+}
+
+.video .caption .title {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.video .caption .info {
+  font-size: 11px;
+}
+
+.user {
+  border-bottom: 1px solid #ECF0F1;
+  margin-bottom: 32px;
+}
+
+.iframe {
+  margin-bottom: 12px;
+}
